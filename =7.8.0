@@ -1,0 +1,19 @@
+Requirement already satisfied: elasticsearch in ./venv/lib/python3.8/site-packages (7.11.0)
+Collecting aiohttp
+  Downloading aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_x86_64.whl (1.5 MB)
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-5.1.0-cp38-cp38-manylinux2014_x86_64.whl (159 kB)
+Collecting attrs>=17.3.0
+  Downloading attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+Collecting async-timeout<4.0,>=3.0
+  Using cached async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.6.3-cp38-cp38-manylinux2014_x86_64.whl (324 kB)
+Requirement already satisfied: typing-extensions>=3.6.5 in ./venv/lib/python3.8/site-packages (from aiohttp) (3.7.4.3)
+Collecting chardet<5.0,>=2.0
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+Requirement already satisfied: idna>=2.0 in ./venv/lib/python3.8/site-packages (from yarl<2.0,>=1.0->aiohttp) (3.1)
+Requirement already satisfied: urllib3<2,>=1.21.1 in ./venv/lib/python3.8/site-packages (from elasticsearch) (1.26.4)
+Requirement already satisfied: certifi in ./venv/lib/python3.8/site-packages (from elasticsearch) (2020.12.5)
+Installing collected packages: multidict, yarl, chardet, attrs, async-timeout, aiohttp
+Successfully installed aiohttp-3.7.4.post0 async-timeout-3.0.1 attrs-20.3.0 chardet-4.0.0 multidict-5.1.0 yarl-1.6.3
